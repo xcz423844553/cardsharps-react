@@ -1,0 +1,8 @@
+export const url_tag_create = "http://127.0.0.1:9999/api/tag_list/create/{tag}"
+export const url_tag_delete = "http://127.0.0.1:9999/api/tag_list/delete/{tag}"
+export const url_tag_read = "http://127.0.0.1:9999/api/tag_list/read"
+export const url_symbol_create = "http://127.0.0.1:9999/api/symbol_list/create/{symbols}"
+export const url_symbol_delete = "http://127.0.0.1:9999/api/symbol_list/delete/{symbols}"
+export const url_read_all_symbol = "http://127.0.0.1:9999/api/read_all_symbol"
+export const url_read_symbol_by_tags = "http://127.0.0.1:9999/api/read_symbol_by_tag/{tags}"
+export const url_read_tag_by_symbol = "http://127.0.0.1:9999/api/read_tag_by_symbol/{symbol}"
