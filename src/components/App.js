@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import OptionFollower from './OptionFollower';
-import MonitorList from './MonitorList';
+import OptionReportTab from './OptionReportTab';
 import SymbolList from './SymbolList';
 import SettingPanel from './SettingPanel';
 //Import from Ant Design
@@ -119,8 +119,8 @@ class App extends React.Component {
               <Tabs.TabPane tab="Tab 1" key="1">
                 <OptionFollower />
               </Tabs.TabPane>
-              <Tabs.TabPane tab="Tab 2" key="2">
-                <MonitorList />
+              <Tabs.TabPane tab="Option Report" key="2">
+                <OptionReportTab />
               </Tabs.TabPane>
               <Tabs.TabPane tab="Tab 3" key="3">
                 <SettingPanel
