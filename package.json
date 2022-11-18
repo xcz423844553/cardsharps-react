@@ -8,7 +8,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-infinite-scroller": "^1.2.4",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-timeseries-charts": "^0.16.1",
     "react-virtualized": "^9.21.1",
     "reqwest": "^2.0.5"
